@@ -1,0 +1,4 @@
+group_categories:
+  default: >-
+    [{"group_include": "staff", "group_exclude": "", "categories_page": "categories only"}]
+  json_schema: '{ "type": "array", "uniqueItems": true, "items": { "type": "object", "properties": { "group_include": { "type": "string", "minLength": 1 }, "group_exclude": { "type": "string" }, "categories_page": { "type": "string", "enum": ["categories only", "categories and latest topics", "categories and top topics", "boxes with subcategories", "boxes with featured topics", "subcategories with featured topics"], "default": "categories only", "minLength": 1 }}, "additionalProperties": false } }'
