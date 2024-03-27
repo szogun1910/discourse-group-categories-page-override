@@ -62,7 +62,7 @@ export default {
       // (the template name doesn't always match the site setting name)
       function nameRemap(original, replacement) {
         let objIndex = allowedGroups.findIndex(
-          (obj) => obj.categories_page == original
+          (obj) => obj.categories_page === original
         );
 
         if (allowedGroups[objIndex]) {
@@ -97,7 +97,6 @@ export default {
       api.modifyClass("route:discovery.categories", {
         findCategories() {
           let parentCategory = this.get("model.parentCategory");
-          console.log(settingCategoriesStyle);
           if (parentCategory) {
             return CategoryList.listForParent(this.store, parentCategory);
           } else if (
