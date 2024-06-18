@@ -5,3 +5,5 @@
 # https://translate.discourse.org/
 
 de:
+  theme_metadata:
+    description: "Festlegen des Seitenstils für Kategorien nach Gruppe"
