@@ -5,3 +5,5 @@
 # https://translate.discourse.org/
 
 zh_CN:
+  theme_metadata:
+    description: "按群组设置类别页面样式"

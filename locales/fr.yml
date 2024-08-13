@@ -5,3 +5,5 @@
 # https://translate.discourse.org/
 
 fr:
+  theme_metadata:
+    description: "Définissez le style de page des catégories par groupe"

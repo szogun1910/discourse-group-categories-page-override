@@ -5,3 +5,5 @@
 # https://translate.discourse.org/
 
 fi:
+  theme_metadata:
+    description: "Aseta aluesivun tyyli ryhmän mukaan"

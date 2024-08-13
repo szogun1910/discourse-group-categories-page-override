@@ -5,3 +5,5 @@
 # https://translate.discourse.org/
 
 ar:
+  theme_metadata:
+    description: "تعيين نمط صفحة الفئات حسب المجموعة"

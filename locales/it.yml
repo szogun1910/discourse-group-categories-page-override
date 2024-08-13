@@ -5,3 +5,5 @@
 # https://translate.discourse.org/
 
 it:
+  theme_metadata:
+    description: "Imposta lo stile della pagina delle categorie per gruppo"
