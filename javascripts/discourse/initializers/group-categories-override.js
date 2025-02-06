@@ -1,7 +1,7 @@
 import { dasherize } from "@ember/string";
+import discourseComputed from "discourse/lib/decorators";
 import { withPluginApi } from "discourse/lib/plugin-api";
 import CategoryList from "discourse/models/category-list";
-import discourseComputed from "discourse-common/utils/decorators";
 
 export default {
   name: "category-layout-override",
